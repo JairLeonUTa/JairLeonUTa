@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jair León | Portafolio</title>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --text-color: #c9d1d9;
+            --accent-color: #58a6ff;
+            --card-bg: #161b22;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        h1, h2, h3 {
+            color: #ffffff;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .bio {
+            font-size: 1.1em;
+            margin-bottom: 30px;
+            color: #8b949e;
+        }
+        
+        .section {
+            background-color: var(--card-bg);
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 25px;
+            margin-bottom: 25px;
+        }
+        
+        .badge-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .badge {
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+        }
+
+        /* Colores basados en los escudos de tu README */
+        .b-java { background-color: #ED8B00; }
+        .b-cpp { background-color: #00599C; }
+        .b-csharp { background-color: #239120; }
+        .b-net { background-color: #5C2D91; }
+        .b-react { background-color: #20232A; color: #61DAFB; }
+        .b-js { background-color: #323330; color: #F7DF1E; }
+        .b-php { background-color: #777BB4; }
+        .b-html { background-color: #E34F26; }
+        .b-css { background-color: #1572B6; }
+        
+        .b-oracle { background-color: #F80000; }
+        .b-sqlserver { background-color: #CC2927; }
+        .b-mysql { background-color: #005C84; }
+        
+        .b-git { background-color: #F05032; }
+        .b-svn { background-color: #809CC9; }
+        .b-bootstrap { background-color: #563D7C; }
+
+        .project-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .project-list li {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #30363d;
+        }
+
+        .project-list li:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .project-title {
+            color: var(--accent-color);
+            font-weight: bold;
+            font-size: 1.1em;
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Hola, soy Jair León 👋</h1>
+            <p class="bio">Estudiante de Ingeniería de Software enfocado en el desarrollo Full-Stack, el diseño de bases de datos relacionales y la arquitectura de redes. Trabajo en la creación de componentes reutilizables, APIs REST y la optimización de procesos mediante buenas prácticas de normalización y metodologías ágiles.</p>
+        </header>
+
+        <main>
+            <div class="section">
+                <h2>🚀 Tecnologías y Herramientas</h2>
+                
+                <h3>💻 Lenguajes y Frameworks</h3>
+                <div class="badge-container">
+                    <span class="badge b-java">JAVA</span>
+                    <span class="badge b-cpp">C++</span>
+                    <span class="badge b-csharp">C#</span>
+                    <span class="badge b-net">.NET</span>
+                    <span class="badge b-react">REACT</span>
+                    <span class="badge b-js">JAVASCRIPT</span>
+                    <span class="badge b-php">PHP</span>
+                    <span class="badge b-html">HTML5</span>
+                    <span class="badge b-css">CSS3</span>
+                </div>
+
+                <h3>🗄️ Bases de Datos</h3>
+                <div class="badge-container">
+                    <span class="badge b-oracle">ORACLE</span>
+                    <span class="badge b-sqlserver">SQL SERVER</span>
+                    <span class="badge b-mysql">MYSQL</span>
+                </div>
+
+                <h3>🛠️ Entornos y Versionado</h3>
+                <div class="badge-container">
+                    <span class="badge b-git">GIT</span>
+                    <span class="badge b-svn">SVN</span>
+                    <span class="badge b-bootstrap">BOOTSTRAP</span>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>⚔️ Proyectos Destacados</h2>
+                <ul class="project-list">
+                    <li>
+                        <span class="project-title">Portafolio Web Interactivo (Estilo RPG)</span>
+                        Interfaz dinámica con temática de fantasía oscura que incluye un panel de atributos personalizado, sección de historia (lore) colapsable y un minijuego integrado en Canvas.
+                    </li>
+                    <li>
+                        <span class="project-title">Sistema de Gestión y Depreciación de Activos</span>
+                        Arquitectura Full-Stack con backend en C# .NET Core (API REST, JWT, Entity Framework) y frontend en React, estructurado bajo normativas LORTI.
+                    </li>
+                    <li>
+                        <span class="project-title">Diseño de Arquitectura de Red Jerárquica</span>
+                        Implementación en Cisco Packet Tracer de una topología de tres capas con enrutamiento Inter-VLAN (SVI), redundancia STP y agregación de enlaces EtherChannel.
+                    </li>
+                </ul>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
