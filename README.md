@@ -1,6 +1,8 @@
 # Hola, soy Jair León 👋
 
 Estudiante de Ingeniería de Software enfocado en el desarrollo Full-Stack, el diseño de bases de datos relacionales y la arquitectura de redes. Trabajo en la creación de componentes reutilizables, APIs REST y la optimización de procesos mediante buenas prácticas de normalización y metodologías ágiles.
+### 👾 Acerca de:  
+https://jairleonuta.github.io/proyecto_Metodologia/
 
 ## 🚀 Tecnologías y Herramientas
 
@@ -28,7 +30,6 @@ Estudiante de Ingeniería de Software enfocado en el desarrollo Full-Stack, el d
 ## 📊 Estadísticas de GitHub
 
 [![Racha de contribuciones](https://github-readme-streak-stats.herokuapp.com/?user=JairLeonUTa&theme=tokyonight&hide_border=true)](https://github.com/JairLeonUTa)
-
 
 ## 📫 Contáctame
 - 📧 Correo: leonjair75@email.com
