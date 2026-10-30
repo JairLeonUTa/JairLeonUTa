@@ -26,15 +26,12 @@ Estudiante de Ingeniería de Software enfocado en el desarrollo Full-Stack, el d
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ## 📊 Estadísticas de GitHub
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=JairLeonUTa&show_icons=true&theme=tokyonight&hide_border=true" alt="Estadísticas de JairLeonUTa" />
-</p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=JairLeonUTa&theme=tokyonight&hide_border=true" alt="Racha de contribuciones" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JairLeonUTa&layout=compact&theme=tokyonight&hide_border=true" alt="Lenguajes más usados" />
-</p>
+
+[![Estadísticas de JairLeonUTa](https://github-readme-stats.vercel.app/api?username=JairLeonUTa&show_icons=true&theme=tokyonight&hide_border=true)](https://github.com/JairLeonUTa)
+
+[![Racha de contribuciones](https://github-readme-streak-stats.herokuapp.com/?user=JairLeonUTa&theme=tokyonight&hide_border=true)](https://github.com/JairLeonUTa)
+
+[![Lenguajes más usados](https://github-readme-stats.vercel.app/api/top-langs?username=JairLeonUTa&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/JairLeonUTa)
 
 ## 📫 Contáctame
 - 📧 Correo: leonjair75@email.com
